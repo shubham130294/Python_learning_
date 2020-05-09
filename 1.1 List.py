@@ -1,7 +1,7 @@
 # List  []
 
 Numbers = [1,2,3,4,5,6]
-Characters = ["MONU","SAURABH","ZEBRA"]
+Characters = ["MONU","SAURABH","TanishQ"]
 print(max(Numbers))
 print(min(Characters))
 
