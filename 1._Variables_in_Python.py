@@ -1,5 +1,9 @@
 # Data type declaration is not required ,On the value assignment the data type is decided dynamically #
 
+#Two different variables ,having same value will not have different address ,
+#Python is a memory efficient language and uses the concept of TAGGING .
+
+
 print("SHUBHAM sharma`s Book")
 print('SHUBHAM sharma\'s Book')  # \ is used as an escape character
 print(r'C:\Users\SHUBHAM Sharma') # r is used to print raw string considering even back slashes
@@ -12,6 +16,8 @@ print(result)
 
 var1 = "SHUBHAM"   #ALL CAPITAL LETTERS
 print(var1)
+print(type(var1))    #define the data type
+print(id(var1))      #Define the address of the variable
 print("")           #Gives a Single new line
 
 var1 += " sharma"   #ALL SMALL LETTERS
